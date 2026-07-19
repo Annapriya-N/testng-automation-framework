@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
@@ -25,3 +26,32 @@
 		</classes>
 	</test>
 </suite>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.CarModel">
+				<methods>
+					<exclude name="car1Model" />
+				</methods>
+			</class>
+
+			<class name="framework.BikeModel">
+				<methods>
+					<exclude name="Bike.*" />
+				</methods>
+			</class>
+			<class name="framework.TestngAnno" />
+		</classes>
+	</test>
+</suite>
+>>>>>>> c3b422ff2e1d08e927711acd0224ba0d076c77cc
