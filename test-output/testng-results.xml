@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-19T19:42:57 IST" name="Suite" finished-at="2026-07-19T19:42:57 IST" duration-ms="86">
+    <groups>
+      <group name="smoke">
+        <method signature="TestngAnno.actualtest()[pri:0, instance:framework.TestngAnno@5fe94a96]" name="actualtest" class="framework.TestngAnno"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-07-19T19:42:57 IST" name="Test" finished-at="2026-07-19T19:42:57 IST" duration-ms="86">
+      <class name="framework.TestngAnno">
+        <test-method signature="actualtest()[pri:0, instance:framework.TestngAnno@5fe94a96]" started-at="2026-07-19T19:42:57 IST" name="actualtest" finished-at="2026-07-19T19:42:57 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualtest -->
+      </class> <!-- framework.TestngAnno -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
