@@ -3,7 +3,6 @@ package framework;
 import org.testng.annotations.Test;
 
 public class CarModel {
-	
 	@Test
 	public void car1Model()
 	{
